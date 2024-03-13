@@ -42,7 +42,7 @@ document.write(`${nombre} ${apellido}`);
 
 /*const numero = Number(prompt('Ingrese un numero'));
 console .log(numero);
-if(numero == 0) {
+if(numero === 0) {
 document.write("El numero ingresado es cero");
 } else if (numero > 0) {
     document.write("El numero ingresado es positivo");   
@@ -60,9 +60,13 @@ numero1 = parseFloat(numero1);
 numero2 = parseFloat(numero2);
 console.log (numero1 + " y " + numero2);
 document.write(" El primer numero es: " + numero1 + " y el segundo numero es: " + numero2 + ",");
-if (numero1 > numero2) {
-document.write (" El numero es " + numero1 + " es mayor y el numero " + numero2 + " en menor");
-}
-else {
-document.write (" El numero " + numero2 + " es mayor y el numero " + numero1 + " es menor");
- }
+ if (isNaN(numero1)) { 
+    document.write("El valor ingresado no es un numero");
+} else if (isNaN(numero2)) { 
+    document.write("El valor ingresado no es un numero"); 
+} else if (numero1 < numero2) { 
+    document.write(`el numero ${numero2} es mayor y el numero ${numero1} es el menor`);
+} else if (numero1 > numero2) { 
+    document.write(`el numero ${numero1} es mayor y el numero ${numero2} es el menor`); 
+} else { 
+    document.write("Los numeros son iguales"); }
