@@ -54,7 +54,7 @@ document.write("El numero ingresado es cero");
 /* DESAFIO 5- Hacer un programa que reciba del usuario dos numeros y muestre 
 cual es el numero mayor y cual es el numero menor
 */
-let numero1 = prompt('Ingrese el primer numero');
+/*let numero1 = prompt('Ingrese el primer numero');
 let numero2 = prompt('Ingrese el segundo numero');
 numero1 = parseFloat(numero1);
 numero2 = parseFloat(numero2);
@@ -69,4 +69,65 @@ document.write(" El primer numero es: " + numero1 + " y el segundo numero es: " 
 } else if (numero1 > numero2) { 
     document.write(`el numero ${numero1} es mayor y el numero ${numero2} es el menor`); 
 } else { 
-    document.write("Los numeros son iguales"); }
+    document.write("Los numeros son iguales"); }*/
+
+/*for (let i = 0, i < 3; i++); {
+        console.log('Ejecutando el contenido del bloque');
+    }*/
+
+/* DESAFIO 6- Hacer un programa que pida al usuario un numero entero y muestre los valores desde cero hasta el numero ingresado.*/
+// Hacer un programa que pida al usuario un número entero y muestre los valores desde cero hasta el número ingresado.
+/* const numero = parseInt(prompt('Ingrese un número entero'));
+for (let i = 0; i <= numero; i++) {
+  console.log('Valor en i: ', i);
+  document.write(i);
+} */
+
+// Hacer un programa que pida al usuario un número entero y muestre los valores desde uno hasta el número ingresado.
+/* const numero = parseInt(prompt('Ingrese un número entero'));
+for (let i = 1; i <= numero; i++) {
+  console.log('Valor en i: ', i);
+  document.write(i);
+} */
+
+// Hacer un programa que solicite al usuario un texto, si el usuario no ingresa nada seguir solicitando hasta que lo haga.
+/* let texto = prompt('Ingrese un texto');
+while (texto === '') {
+  texto = prompt('Ingrese un texto');
+}
+document.write('Ingresaste el texto: ' + texto); */
+
+// Hacer un programa que le pregunte al usuario si desea continuar, en caso de SI repetir pregunta, en caso de NO salir.
+/* let continuar = null;
+do {
+  continuar = confirm('¿Desea continuar?');
+  if (!continuar) {
+    document.write('El programa ha terminado.');
+  }
+} while (continuar); */
+
+// Hacer un programa que muestre los días de la semana.
+/* const miArreglo = [
+  'domingo',
+  'lunes',
+  'martes',
+  'miércoles',
+  'jueves',
+  'viernes',
+  'sábado',
+];
+for (let i = 0; i < miArreglo.length; i++) {
+  document.write(miArreglo[i] + ' ');
+} */
+
+// Hacer un programa que itere sobre una cadena de texto
+/* const miString = 'hola';
+for (let i = 0; i < miString.length; i++) {
+  document.write(miString[i]);
+} */
+
+// Hacer un programa que pida un número al usuario y muestre los números pares desde 1 hasta el número ingresado.
+
+/* Hacer un programa que solicite al usuario un número de 0 a 6 (manejar errores) mostrar el día de la semana correspondiente según arreglo "días" */
+
+// Hacer un programa que solicite al usuario un día de la semana y le retorne su nombre en inglés.
